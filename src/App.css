@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -36,3 +37,104 @@
     transform: rotate(360deg);
   }
 }
+
+.BlockNumber {
+  border: 2px solid blue;
+  padding: 10px;
+  display: inline-block;
+}
+
+.nft-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nft-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.nft-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.nft-details h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.nft-details p {
+  margin: 0;
+}
+
+
+.NftMetadata {
+  background-color: #f7f7f7;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NftMetadata h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.NftMetadata p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.NftFloorprice {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.TransactionReceipt {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: monospace;
+}
+.AssetTransfer {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+
+
